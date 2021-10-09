@@ -12,8 +12,12 @@
   
   </div>
 
-  <div id="comment" class="col-md-7">
-    <h2>COMMENTS</h2>
+  <div id="commentDiv" class="col-md-7">
+    <h2>comment</h2>
+  <input id= "comment" class="input" type="text" placeholder="Text input">
+    <button id="submitBtn">submit comment</button>
+  </form>
+
     <p>
       {{#each comments as |comment|}}
       {{comment.content}}

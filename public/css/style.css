@@ -1,7 +1,76 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 header, .project:not(:last-child) {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 4px solid rgb(0, 0, 0)c;
+  font-size: 22px;
 }
 
+body {
+  color: white;
+  background-color: #065b83;
+
+}
+
+nav {
+  width:500px;
+  
+ 
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: blanchedalmond;
+}
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 36px;
+  color: black;
+  background-color: bisque;
+  display: inline;
+  width: 100px
+
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: darkslategray;
+}
+
+/* mouse over link */
+a:hover {
+  color: grey;
+  font-size: larger;
+}
+
+/* selected link */
+a:active {
+  color: grey;
+}
+
+main {
+  background-color: blanchedalmond;
+  border: blanchedalmond;
+  border-radius: 4%;
+  padding: 3%;
+}
+
+button {
+  background-color: cadetblue;
+  border-radius: 3px;
+}
+
+a{ 
+  padding: 3%;
+  color: aliceblue;
+}
 .no-button {
   background: none;
   border: none;
