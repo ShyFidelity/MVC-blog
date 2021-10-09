@@ -7,16 +7,20 @@ header, .project:not(:last-child) {
   font-size: 22px;
 }
 
-body {
-  color: white;
-  background-color: #065b83;
 
-}
 
 nav {
   width:500px;
   
- 
+}
+
+.comment-div {
+  background-color: blanchedalmond;
+  border:lightslategray;
+  margin: 5%;
+  border-radius: 4%;
+  padding: 3%;
+
 }
 header {
   display: flex;

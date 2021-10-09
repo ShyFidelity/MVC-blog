@@ -1,7 +1,10 @@
-const newFormHandler = async (event) => {
+
+
+const newCommentHandler = async (event) => {
+  console.log("i did it");
     event.preventDefault();
   
-    const name = document.querySelector('#comment').value.trim();
+    const comment = document.querySelector('#comment').value.trim();
     
   
     if (comment) {
@@ -20,9 +23,10 @@ const newFormHandler = async (event) => {
       }
     }
   };
-  
-  
-  document
-    .querySelector('#submitBtn')
-    .addEventListener('click', newFormHandler);
+
+
+
+document
+  .querySelector('.new-project-form')
+  .addEventListener('click', newCommentHandler);
   
