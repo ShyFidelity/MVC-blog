@@ -9,7 +9,15 @@ Comment.init(
     content: {
       type: DataTypes.STRING,
       allowNull: false,
-    }
+    },
+    entry_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'post',
+        key: 'id',
+        unique: false
+      }
+    },
     
   },
   {

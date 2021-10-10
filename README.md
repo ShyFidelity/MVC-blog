@@ -10,7 +10,7 @@
 
 ## Motivation
 
-This project was motivating Charlotte ourselves and really dive into the Model view controller method. Learning how to create a dynamic page with user input will be very beneficial skill to have as it is part of most websites.
+This project was motivating to really dive into the Model view controller method. Learning how to create a dynamic page with user input will be very beneficial skill to have as it is part of most websites.
 
 
 ## Your Task
