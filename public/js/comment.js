@@ -27,6 +27,6 @@ const newCommentHandler = async (event) => {
 
 
 document
-  .querySelector('.new-project-form')
+  .querySelector('#commentBtn')
   .addEventListener('click', newCommentHandler);
   
