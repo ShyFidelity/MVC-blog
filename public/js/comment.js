@@ -6,9 +6,9 @@ const newCommentHandler = async (event) => {
   
     const comment = document.querySelector('#comment').value.trim();
     
-  
+  //change format to match comment route
     if (comment) {
-      const response = await fetch(`/api/posts`, {
+      const response = await fetch(`/api/:id/comment`, {
         method: 'POST',
         body: JSON.stringify({ comment }),
         headers: {
