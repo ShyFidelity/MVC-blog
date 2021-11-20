@@ -1,7 +1,9 @@
 # MyVeryCool-blog
 
 
+## Deployed 
 
+https://safe-waters-86738.herokuapp.com/
 ## Videos
 
 ![](public/images/screenshot.png)
